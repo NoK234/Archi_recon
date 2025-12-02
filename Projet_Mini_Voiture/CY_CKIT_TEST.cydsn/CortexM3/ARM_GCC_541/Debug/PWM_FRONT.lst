@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
   28:Generated_Source\PSoC5/PWM_FRONT.c ****     #error PWM_v3_30 detected with a constant 0 for the enable or \
   29:Generated_Source\PSoC5/PWM_FRONT.c ****          constant 1 for reset. This will prevent the component from operating.
   30:Generated_Source\PSoC5/PWM_FRONT.c **** #endif /* PWM_FRONT_PWMUDB_genblk1_ctrlreg__REMOVED */
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 2
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 2
 
 
   31:Generated_Source\PSoC5/PWM_FRONT.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
   85:Generated_Source\PSoC5/PWM_FRONT.c **** {
   86:Generated_Source\PSoC5/PWM_FRONT.c ****     #if (PWM_FRONT_UsingFixedFunction || PWM_FRONT_UseControl)
   87:Generated_Source\PSoC5/PWM_FRONT.c ****         uint8 ctrl;
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 3
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 3
 
 
   88:Generated_Source\PSoC5/PWM_FRONT.c ****     #endif /* (PWM_FRONT_UsingFixedFunction || PWM_FRONT_UseControl) */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  142:Generated_Source\PSoC5/PWM_FRONT.c ****             PWM_FRONT_WriteCompare2(PWM_FRONT_INIT_COMPARE_VALUE2);
  143:Generated_Source\PSoC5/PWM_FRONT.c ****         #endif /* (PWM_FRONT_UseOneCompareMode) */
  144:Generated_Source\PSoC5/PWM_FRONT.c **** 
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 4
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 4
 
 
  145:Generated_Source\PSoC5/PWM_FRONT.c ****         #if (PWM_FRONT_KillModeMinTime)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  199:Generated_Source\PSoC5/PWM_FRONT.c **** void PWM_FRONT_Enable(void) 
  200:Generated_Source\PSoC5/PWM_FRONT.c **** {
   28              		.loc 1 200 0
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 5
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 5
 
 
   29              		.cfi_startproc
@@ -263,7 +263,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
   39              	.L3:
   40              		.align	2
   41              	.L2:
-  42 000c 7A640040 		.word	1073767546
+  42 000c 79640040 		.word	1073767545
   43              		.cfi_endproc
   44              	.LFE2:
   45              		.size	PWM_FRONT_Enable, .-PWM_FRONT_Enable
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  230:Generated_Source\PSoC5/PWM_FRONT.c **** *  has no effect on the operation of the PWM
  231:Generated_Source\PSoC5/PWM_FRONT.c **** *
  232:Generated_Source\PSoC5/PWM_FRONT.c **** *******************************************************************************/
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 6
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 6
 
 
  233:Generated_Source\PSoC5/PWM_FRONT.c **** void PWM_FRONT_Stop(void) 
@@ -319,7 +319,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
   65              	.L6:
   66              		.align	2
   67              	.L5:
-  68 000c 7A640040 		.word	1073767546
+  68 000c 79640040 		.word	1073767545
   69              		.cfi_endproc
   70              	.LFE3:
   71              		.size	PWM_FRONT_Stop, .-PWM_FRONT_Stop
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  261:Generated_Source\PSoC5/PWM_FRONT.c ****         *
  262:Generated_Source\PSoC5/PWM_FRONT.c ****         * Return:
  263:Generated_Source\PSoC5/PWM_FRONT.c ****         *  None
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 7
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 7
 
 
  264:Generated_Source\PSoC5/PWM_FRONT.c ****         *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  318:Generated_Source\PSoC5/PWM_FRONT.c ****         * Parameters:
  319:Generated_Source\PSoC5/PWM_FRONT.c ****         *  comparemode:  The new compare mode for the PWM output. Use the compare types
  320:Generated_Source\PSoC5/PWM_FRONT.c ****         *                defined in the H file as input arguments.
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 8
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 8
 
 
  321:Generated_Source\PSoC5/PWM_FRONT.c ****         *
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  375:Generated_Source\PSoC5/PWM_FRONT.c ****     #endif /*PWM_FRONT_CompareMode2SW */
  376:Generated_Source\PSoC5/PWM_FRONT.c **** 
  377:Generated_Source\PSoC5/PWM_FRONT.c **** #endif /* UseOneCompareMode */
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 9
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 9
 
 
  378:Generated_Source\PSoC5/PWM_FRONT.c **** 
@@ -523,7 +523,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
   90              	.L9:
   91 0006 00BF     		.align	2
   92              	.L8:
-  93 0008 0A640040 		.word	1073767434
+  93 0008 09640040 		.word	1073767433
   94              		.cfi_endproc
   95              	.LFE4:
   96              		.size	PWM_FRONT_WriteCounter, .-PWM_FRONT_WriteCounter
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  407:Generated_Source\PSoC5/PWM_FRONT.c ****     }
  408:Generated_Source\PSoC5/PWM_FRONT.c **** 
  409:Generated_Source\PSoC5/PWM_FRONT.c **** 
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 10
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 10
 
 
  410:Generated_Source\PSoC5/PWM_FRONT.c ****     /*******************************************************************************
@@ -582,8 +582,8 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  118              	.L12:
  119 000a 00BF     		.align	2
  120              	.L11:
- 121 000c 1A640040 		.word	1073767450
- 122 0010 5A640040 		.word	1073767514
+ 121 000c 19640040 		.word	1073767449
+ 122 0010 59640040 		.word	1073767513
  123              		.cfi_endproc
  124              	.LFE5:
  125              		.size	PWM_FRONT_ReadCounter, .-PWM_FRONT_ReadCounter
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  435:Generated_Source\PSoC5/PWM_FRONT.c **** 
  436:Generated_Source\PSoC5/PWM_FRONT.c ****     #if (PWM_FRONT_UseStatus)
  437:Generated_Source\PSoC5/PWM_FRONT.c **** 
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 11
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 11
 
 
  438:Generated_Source\PSoC5/PWM_FRONT.c **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  486:Generated_Source\PSoC5/PWM_FRONT.c ****     #else
  487:Generated_Source\PSoC5/PWM_FRONT.c ****         CY_SET_REG8(PWM_FRONT_PERIOD_LSB_PTR, period);
  140              		.loc 1 487 0
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 12
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 12
 
 
  141 0000 014B     		ldr	r3, .L14
@@ -667,7 +667,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  144              	.L15:
  145 0006 00BF     		.align	2
  146              	.L14:
- 147 0008 4A640040 		.word	1073767498
+ 147 0008 49640040 		.word	1073767497
  148              		.cfi_endproc
  149              	.LFE7:
  150              		.size	PWM_FRONT_WritePeriod, .-PWM_FRONT_WritePeriod
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  524:Generated_Source\PSoC5/PWM_FRONT.c **** 
  525:Generated_Source\PSoC5/PWM_FRONT.c ****         #if (PWM_FRONT_PWMMode == PWM_FRONT__B_PWM__DITHER)
  526:Generated_Source\PSoC5/PWM_FRONT.c ****             #if(PWM_FRONT_UsingFixedFunction)
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 13
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 13
 
 
  527:Generated_Source\PSoC5/PWM_FRONT.c ****                 CY_SET_REG16(PWM_FRONT_COMPARE2_LSB_PTR, (uint16)(compare + 1u));
@@ -769,7 +769,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  169              	.L18:
  170 0006 00BF     		.align	2
  171              	.L17:
- 172 0008 2A640040 		.word	1073767466
+ 172 0008 29640040 		.word	1073767465
  173              		.cfi_endproc
  174              	.LFE8:
  175              		.size	PWM_FRONT_WriteCompare1, .-PWM_FRONT_WriteCompare1
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  178              		.global	PWM_FRONT_WriteCompare2
  179              		.thumb
  180              		.thumb_func
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 14
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 14
 
 
  181              		.type	PWM_FRONT_WriteCompare2, %function
@@ -826,7 +826,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  194              	.L21:
  195 0006 00BF     		.align	2
  196              	.L20:
- 197 0008 3A640040 		.word	1073767482
+ 197 0008 39640040 		.word	1073767481
  198              		.cfi_endproc
  199              	.LFE9:
  200              		.size	PWM_FRONT_WriteCompare2, .-PWM_FRONT_WriteCompare2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  206              		.type	PWM_FRONT_SetInterruptMode, %function
  207              	PWM_FRONT_SetInterruptMode:
  208              	.LFB10:
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 15
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 15
 
 
  591:Generated_Source\PSoC5/PWM_FRONT.c ****         #endif /* (PWM_FRONT_UsingFixedFunction) */
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  645:Generated_Source\PSoC5/PWM_FRONT.c ****     *  Dead Band Counts
  646:Generated_Source\PSoC5/PWM_FRONT.c ****     *
  647:Generated_Source\PSoC5/PWM_FRONT.c ****     *******************************************************************************/
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 16
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 16
 
 
  648:Generated_Source\PSoC5/PWM_FRONT.c ****     uint8 PWM_FRONT_ReadDeadTime(void) 
@@ -953,12 +953,12 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  219              	.L24:
  220 0006 00BF     		.align	2
  221              	.L23:
- 222 0008 8A640040 		.word	1073767562
+ 222 0008 89640040 		.word	1073767561
  223              		.cfi_endproc
  224              	.LFE10:
  225              		.size	PWM_FRONT_SetInterruptMode, .-PWM_FRONT_SetInterruptMode
  226              		.section	.text.PWM_FRONT_ReadStatusRegister,"ax",%progbits
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 17
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 17
 
 
  227              		.align	2
@@ -1009,7 +1009,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  244              	.L27:
  245 0006 00BF     		.align	2
  246              	.L26:
- 247 0008 6A640040 		.word	1073767530
+ 247 0008 69640040 		.word	1073767529
  248              		.cfi_endproc
  249              	.LFE11:
  250              		.size	PWM_FRONT_ReadStatusRegister, .-PWM_FRONT_ReadStatusRegister
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  253              		.global	PWM_FRONT_ReadControlRegister
  254              		.thumb
  255              		.thumb_func
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 18
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 18
 
 
  256              		.type	PWM_FRONT_ReadControlRegister, %function
@@ -1067,7 +1067,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  270              	.L30:
  271 0006 00BF     		.align	2
  272              	.L29:
- 273 0008 7A640040 		.word	1073767546
+ 273 0008 79640040 		.word	1073767545
  274              		.cfi_endproc
  275              	.LFE12:
  276              		.size	PWM_FRONT_ReadControlRegister, .-PWM_FRONT_ReadControlRegister
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  281              		.thumb_func
  282              		.type	PWM_FRONT_WriteControlRegister, %function
  283              	PWM_FRONT_WriteControlRegister:
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 19
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 19
 
 
  284              	.LFB13:
@@ -1119,7 +1119,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  295              	.L33:
  296 0006 00BF     		.align	2
  297              	.L32:
- 298 0008 7A640040 		.word	1073767546
+ 298 0008 79640040 		.word	1073767545
  299              		.cfi_endproc
  300              	.LFE13:
  301              		.size	PWM_FRONT_WriteControlRegister, .-PWM_FRONT_WriteControlRegister
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  772:Generated_Source\PSoC5/PWM_FRONT.c **** 
  773:Generated_Source\PSoC5/PWM_FRONT.c **** #if (!PWM_FRONT_UsingFixedFunction)
  774:Generated_Source\PSoC5/PWM_FRONT.c **** 
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 20
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 20
 
 
  775:Generated_Source\PSoC5/PWM_FRONT.c **** 
@@ -1173,7 +1173,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  320              	.L36:
  321 0006 00BF     		.align	2
  322              	.L35:
- 323 0008 5A640040 		.word	1073767514
+ 323 0008 59640040 		.word	1073767513
  324              		.cfi_endproc
  325              	.LFE14:
  326              		.size	PWM_FRONT_ReadCapture, .-PWM_FRONT_ReadCapture
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  343              		.loc 1 455 0
  344 0002 01E0     		b	.L38
  345              	.L39:
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 21
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 21
 
 
  457:Generated_Source\PSoC5/PWM_FRONT.c ****             }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  392 001c FFF7FEFF 		bl	PWM_FRONT_WriteCounter
  393              	.LVL11:
  136:Generated_Source\PSoC5/PWM_FRONT.c **** 
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 22
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 22
 
 
  394              		.loc 1 136 0
@@ -1301,8 +1301,8 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  424              	.L44:
  425 004e 00BF     		.align	2
  426              	.L43:
- 427 0050 7A640040 		.word	1073767546
- 428 0054 9A640040 		.word	1073767578
+ 427 0050 79640040 		.word	1073767545
+ 428 0054 99640040 		.word	1073767577
  429              		.cfi_endproc
  430              	.LFE1:
  431              		.size	PWM_FRONT_Init, .-PWM_FRONT_Init
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  440              		.loc 1 56 0
  441              		.cfi_startproc
  442              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 23
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 23
 
 
  443              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  808:Generated_Source\PSoC5/PWM_FRONT.c ****     *
  809:Generated_Source\PSoC5/PWM_FRONT.c ****     * Parameters:
  810:Generated_Source\PSoC5/PWM_FRONT.c ****     *  None
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 24
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 24
 
 
  811:Generated_Source\PSoC5/PWM_FRONT.c ****     *
@@ -1429,7 +1429,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  489              	.L52:
  490 0006 00BF     		.align	2
  491              	.L51:
- 492 0008 2A640040 		.word	1073767466
+ 492 0008 29640040 		.word	1073767465
  493              		.cfi_endproc
  494              	.LFE15:
  495              		.size	PWM_FRONT_ReadCompare1, .-PWM_FRONT_ReadCompare1
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  498              		.global	PWM_FRONT_ReadCompare2
  499              		.thumb
  500              		.thumb_func
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 25
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 25
 
 
  501              		.type	PWM_FRONT_ReadCompare2, %function
@@ -1477,7 +1477,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  514              	.L55:
  515 0006 00BF     		.align	2
  516              	.L54:
- 517 0008 3A640040 		.word	1073767482
+ 517 0008 39640040 		.word	1073767481
  518              		.cfi_endproc
  519              	.LFE16:
  520              		.size	PWM_FRONT_ReadCompare2, .-PWM_FRONT_ReadCompare2
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  872:Generated_Source\PSoC5/PWM_FRONT.c **** ********************************************************************************
  873:Generated_Source\PSoC5/PWM_FRONT.c **** *
  874:Generated_Source\PSoC5/PWM_FRONT.c **** * Summary:
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 26
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 26
 
 
  875:Generated_Source\PSoC5/PWM_FRONT.c **** *  Reads the period value used by the PWM hardware.
@@ -1531,7 +1531,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  539              	.L58:
  540 0006 00BF     		.align	2
  541              	.L57:
- 542 0008 4A640040 		.word	1073767498
+ 542 0008 49640040 		.word	1073767497
  543              		.cfi_endproc
  544              	.LFE17:
  545              		.size	PWM_FRONT_ReadPeriod, .-PWM_FRONT_ReadPeriod
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  566 0011 AD020000 		.4byte	.LASF44
  567 0015 22030000 		.4byte	.LASF45
  568 0019 00000000 		.4byte	.Ldebug_ranges0+0
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 27
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 27
 
 
  569 001d 00000000 		.4byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  623 0081 E5010000 		.4byte	.LASF10
  624 0085 02       		.uleb128 0x2
  625 0086 01       		.byte	0x1
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 28
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 28
 
 
  626 0087 08       		.byte	0x8
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  680 00fa 6B000000 		.4byte	0x6b
  681 00fe 00000000 		.4byte	.LFB5
  682 0102 14000000 		.4byte	.LFE5-.LFB5
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 29
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 29
 
 
  683 0106 01       		.uleb128 0x1
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  737 0178 EC010000 		.4byte	.LASF25
  738 017c 01       		.byte	0x1
  739 017d AC02     		.2byte	0x2ac
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 30
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 30
 
 
  740 017f 00000000 		.4byte	.LFB10
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  794 01fd 01       		.uleb128 0x1
  795 01fe 50       		.byte	0x50
  796 01ff 00       		.byte	0
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 31
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 31
 
 
  797 0200 09       		.uleb128 0x9
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  851 0283 09       		.byte	0x9
  852 0284 FF       		.byte	0xff
  853 0285 00       		.byte	0
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 32
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 32
 
 
  854 0286 0F       		.uleb128 0xf
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  908 02f5 37       		.byte	0x37
  909 02f6 00000000 		.4byte	.LFB0
  910 02fa 1C000000 		.4byte	.LFE0-.LFB0
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 33
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 33
 
 
  911 02fe 01       		.uleb128 0x1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  965 037f 7E       		.byte	0x7e
  966 0380 00       		.byte	0
  967              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 34
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 34
 
 
  968              	.Ldebug_abbrev0:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1022 0035 00       		.byte	0
  1023 0036 05       		.uleb128 0x5
  1024 0037 35       		.uleb128 0x35
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 35
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 35
 
 
  1025 0038 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1079 0070 05       		.uleb128 0x5
  1080 0071 00       		.byte	0
  1081 0072 03       		.uleb128 0x3
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 36
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 36
 
 
  1082 0073 0E       		.uleb128 0xe
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1136 00aa 06       		.uleb128 0x6
  1137 00ab 40       		.uleb128 0x40
  1138 00ac 18       		.uleb128 0x18
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 37
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 37
 
 
  1139 00ad 9742     		.uleb128 0x2117
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1193 00e7 00       		.byte	0
  1194 00e8 0E       		.uleb128 0xe
  1195 00e9 34       		.uleb128 0x34
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 38
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 38
 
 
  1196 00ea 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1250 0125 19       		.uleb128 0x19
  1251 0126 3C       		.uleb128 0x3c
  1252 0127 19       		.uleb128 0x19
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 39
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 39
 
 
  1253 0128 6E       		.uleb128 0x6e
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1307 005c 0C000000 		.4byte	.LFE12-.LFB12
  1308 0060 00000000 		.4byte	.LFB13
  1309 0064 0C000000 		.4byte	.LFE13-.LFB13
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 40
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 40
 
 
  1310 0068 00000000 		.4byte	.LFB14
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1364 0090 00000000 		.4byte	0
  1365 0094 00000000 		.4byte	0
  1366              		.section	.debug_line,"",%progbits
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 41
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 41
 
 
  1367              	.Ldebug_line0:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1388 00a1 50574D5F 		.ascii	"PWM_FRONT_ReadControlRegister\000"
  1388      46524F4E 
  1388      545F5265 
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 42
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 42
 
 
  1388      6164436F 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1410      61626C65 
  1410      00
  1411              	.LASF27:
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 43
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 43
 
 
  1412 01b6 50574D5F 		.ascii	"PWM_FRONT_ReadCounter\000"
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1430      00
  1431              	.LASF42:
  1432 0297 43794578 		.ascii	"CyExitCriticalSection\000"
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 44
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 44
 
 
  1432      69744372 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 1
  1452              	.LASF37:
  1453 036e 50574D5F 		.ascii	"PWM_FRONT_Start\000"
  1453      46524F4E 
-ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc9yplnH.s 			page 45
+ARM GAS  C:\Users\roumanos\AppData\Local\Temp\cc7Ujkla.s 			page 45
 
 
  1453      545F5374 

@@ -11,12 +11,12 @@
 */
 #include "project.h"
 
-volatile uint8_t key_event = 0;
-volatile uint8_t pressed_key = 0;
+ uint8_t key_event ;
+ uint8_t pressed_key;
 
 CY_ISR(MyInter)
 {   
-    pressed_key = button_read();
+    pressed_key = UART_XBEE_GetChar();
     key_event = 1;                    
         
 }
@@ -27,11 +27,16 @@ int main(void)
     CyGlobalIntEnable; /* Enable global interrupts. */
     PWM_BACK_Start();
     PWM_FRONT_Start();
-    ADC_SAR_1_Start();
-    ADC_SAR_1_StartConvert();
-    uint8 adc_val;
+    
+    
+    UART_XBEE_Start();
+    
+ 
     key_event = 0;
     pressed_key = 0;
+    uint8 vit_max_PWM = 255;
+    uint8 vit_moy_PWM = 125;
+    uint8 vit_min_PWM = 25;
     
     inter_uart_StartEx(MyInter);
     
@@ -45,70 +50,102 @@ int main(void)
         if(key_event)
         {
             key_event = 0;
-            adc_val = ADC_SAR_1_GetResult8();
             
-            switch(in_uart)
+            switch(pressed_key)
             {
             case 'z':
-            IN_A1_Write(0);
-            IN_A2_Write(1);
-            IN_B1_Write(1);
-            IN_B2_Write(0);
+            IN_A2_AR_G_Write(1);
+            IN_B2_AR_G_Write(0);
+            IN_A1_AR_D_Write(1);
+            IN_B1_AR_D_Write(0);
             
-            IN_A1_1_Write(1);
-            IN_A2_1_Write(1);
-            IN_B1_1_Write(0);
-            IN_B2_1_Write(0);
+            IN_A1_AV_G_Write(1);
+            IN_B1_AV_G_Write(0);
+            IN_A2_AV_D_Write(1);
+            IN_B2_AV_D_Write(0);
+            
+            PWM_BACK_WriteCompare1(vit_max_PWM);
+            PWM_BACK_WriteCompare2(vit_max_PWM);
+            PWM_FRONT_WriteCompare1(vit_max_PWM);
+            PWM_FRONT_WriteCompare2(vit_max_PWM);
+            
             break;
             
             case 's':
-            IN_A1_Write(1);
-            IN_A2_Write(0);
-            IN_B1_Write(0);
-            IN_B2_Write(1);
+            IN_A2_AR_G_Write(0);
+            IN_B2_AR_G_Write(1);
+            IN_A1_AR_D_Write(0);
+            IN_B1_AR_D_Write(1);
             
-            IN_A1_1_Write(0);
-            IN_A2_1_Write(0);
-            IN_B1_1_Write(1);
-            IN_B2_1_Write(1);
+            IN_A1_AV_G_Write(0);
+            IN_B1_AV_G_Write(1);
+            IN_A2_AV_D_Write(0);
+            IN_B2_AV_D_Write(1);
+            
+            PWM_BACK_WriteCompare1(vit_max_PWM);
+            PWM_BACK_WriteCompare2(vit_max_PWM);
+            PWM_FRONT_WriteCompare1(vit_max_PWM);
+            PWM_FRONT_WriteCompare2(vit_max_PWM);
             break;
             
             case 'q':
-            IN_A1_Write(0);
-            IN_A2_Write(1);
-            IN_B1_Write(1);
-            IN_B2_Write(0);
+            IN_A2_AR_G_Write(1);
+            IN_B2_AR_G_Write(0);
+            IN_A1_AR_D_Write(1);
+            IN_B1_AR_D_Write(0);
             
-            IN_A1_1_Write(1);
-            IN_A2_1_Write(1);
-            IN_B1_1_Write(0);
-            IN_B2_1_Write(0);
+            IN_A1_AV_G_Write(1);
+            IN_B1_AV_G_Write(0);
+            IN_A2_AV_D_Write(1);
+            IN_B2_AV_D_Write(0);
+                        
+            PWM_BACK_WriteCompare1(vit_max_PWM);
+            PWM_BACK_WriteCompare2(vit_max_PWM);
+            
+            PWM_FRONT_WriteCompare1(vit_min_PWM);
+            PWM_FRONT_WriteCompare2(vit_max_PWM);
             break;
             
             case 'd':
-            IN_A1_Write(1);
-            IN_A2_Write(0);
-            IN_B1_Write(0);
-            IN_B2_Write(1);
+            IN_A2_AR_G_Write(1);
+            IN_B2_AR_G_Write(0);
+            IN_A1_AR_D_Write(1);
+            IN_B1_AR_D_Write(0);
             
-            IN_A1_1_Write(0);
-            IN_A2_1_Write(0);
-            IN_B1_1_Write(1);
-            IN_B2_1_Write(1);
+            IN_A1_AV_G_Write(1);
+            IN_B1_AV_G_Write(0);
+            IN_A2_AV_D_Write(1);
+            IN_B2_AV_D_Write(0);
+                         
+            PWM_BACK_WriteCompare1(vit_max_PWM);
+            PWM_BACK_WriteCompare2(vit_max_PWM);
+            
+            PWM_FRONT_WriteCompare1(vit_max_PWM);
+            PWM_FRONT_WriteCompare2(vit_moy_PWM);
             break;
+            
+            case ' ':
+            IN_A2_AR_G_Write(0);
+            IN_B2_AR_G_Write(0);
+            IN_A1_AR_D_Write(0);
+            IN_B1_AR_D_Write(0);
+            
+            IN_A1_AV_G_Write(0);
+            IN_B1_AV_G_Write(0);
+            IN_A2_AV_D_Write(0);
+            IN_B2_AV_D_Write(0);
+                         
+            PWM_BACK_WriteCompare1(0);
+            PWM_BACK_WriteCompare2(0);
+            PWM_FRONT_WriteCompare1(0);
+            PWM_FRONT_WriteCompare2(0);
+            break;
+            
+            
             }
+            
         }
-                PWM_BACK_WriteCompare1(adc_val);
-                PWM_BACK_WriteCompare2(adc_val);
-                PWM_FRONT_WriteCompare1(adc_val);
-                PWM_FRONT_WriteCompare2(adc_val);
-           // }
-
-        //}
-
-        
-        
-        /* Place your application code here. */
+                
     }
 }
 

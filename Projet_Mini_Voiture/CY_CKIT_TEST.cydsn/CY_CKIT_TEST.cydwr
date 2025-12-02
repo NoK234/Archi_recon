@@ -259,7 +259,7 @@
       <Data key="58d37ce6-7eec-42cd-aec3-fbeeb0dd4372" value="PWM2_output_2" />
       <Data key="85757c22-7719-408b-9c0e-e25eb07b8629" value="IN_A2" />
       <Data key="90066bb9-1b59-431e-95ad-b78e39804f4c/16a808f6-2e13-45b9-bce0-b001c8655113" value="ADC_SAR_1_Bypass" />
-      <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="Rx_1" />
+      <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="Rx_XBEE" />
       <Data key="77715107-f8d5-47e5-a629-0fb83101ac6b" value="ADC1_input" />
       <Data key="b1c90631-0718-46e1-abcb-8a0153eae038" value="IN_A1_1" />
       <Data key="bae11e70-aef1-4305-8cfb-09b56e90a6ad" value="IN_A" />
@@ -3446,6 +3446,7 @@
         <Data key="Port Format" value="4,0" />
       </Group>
     </Group>
+    <Group key="UnAssigned Pins" />
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />

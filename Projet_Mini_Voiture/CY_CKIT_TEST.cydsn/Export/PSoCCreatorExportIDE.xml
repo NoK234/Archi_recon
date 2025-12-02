@@ -58,22 +58,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cydisabledsheets.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC1_input_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC1_input.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC1_input.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_theACLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_theACLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_Bypass_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_Bypass.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_Bypass.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC5\cm3gcc.ld</File>
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">Generated_Source\PSoC5\Cm3RealView.scat</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cm3Start.c</File>
@@ -110,56 +96,56 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_BACK.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_BACK.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_BACK_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_output_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_output_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_output_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_output_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_output_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_output_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_FRONT.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_FRONT.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_FRONT_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_output_2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_output_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_output_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_output_2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_output_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_output_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_IntClock.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_1_IntClock.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_2.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\inter_uart.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\inter_uart.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_XBEE.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_XBEE.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_XBEE_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_XBEE_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_XBEE_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_XBEE_IntClock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_XBEE_IntClock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_AR_G_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_AR_G.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_AR_G.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_AR_G_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_AR_G.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_AR_G.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_AR_G_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_AR_G.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM2_AR_G.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_AR_D_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_AR_D.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM1_AR_D.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_AR_D_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_AR_D.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_AR_D.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_AR_D_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_AR_D.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_AR_D.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_AV_D_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_AV_D.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_AV_D.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_AV_G_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_AV_G.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_AV_G.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_AV_D_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_AV_D.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A2_AV_D.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_AV_D_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_AV_D.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B2_AV_D.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_AV_G_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_AV_G.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_A1_AV_G.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_AV_G_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_AV_G.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IN_B1_AV_G.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="U:\5SEE\Archi_Elec_Voiture\Projet_Mini_Voiture\CY_CKIT_TEST.cydsn\Export\ARM_GCC_Generic">
